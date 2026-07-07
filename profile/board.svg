@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="322" viewBox="0 0 900 322" role="img" aria-label="Andon board">
+<style>
+text { font-family: Consolas, 'Courier New', monospace; font-size: 13px; }
+.hd { fill: #8b949e; font-size: 12px; letter-spacing: 2px; }
+.name { fill: #e6edf3; }
+.dim { fill: #8b949e; }
+.st { font-size: 12px; letter-spacing: 1px; }
+</style>
+<rect x="0" y="0" width="900" height="322" rx="12" fill="#0d1117" stroke="#30363d"/>
+<text x="28" y="40" class="hd">LINE STATUS</text>
+<text x="872" y="40" class="hd" text-anchor="end">BHANKE-LAB</text>
+<line x1="28" y1="56" x2="872" y2="56" stroke="#30363d"/>
+<circle cx="40" cy="78" r="10" fill="#3fb950" opacity="0.25"/>
+<circle cx="40" cy="78" r="5" fill="#3fb950"/>
+<text x="62" y="83" class="name">garmin-notion</text>
+<text x="320" y="83" class="dim">Watch data into my training log</text>
+<text x="640" y="83" class="st" fill="#3fb950">IN SERVICE</text>
+<text x="872" y="83" class="dim" text-anchor="end">2026-06-25</text>
+<circle cx="40" cy="112" r="10" fill="#3fb950" opacity="0.25"/>
+<circle cx="40" cy="112" r="5" fill="#3fb950"/>
+<text x="62" y="117" class="name">local-inventory-scanner</text>
+<text x="320" y="117" class="dim">Who took what from the parts room</text>
+<text x="640" y="117" class="st" fill="#3fb950">IN SERVICE</text>
+<text x="872" y="117" class="dim" text-anchor="end">2026-06-30</text>
+<circle cx="40" cy="146" r="10" fill="#3fb950" opacity="0.25"/>
+<circle cx="40" cy="146" r="5" fill="#3fb950"/>
+<text x="62" y="151" class="name">notion-morning-print</text>
+<text x="320" y="151" class="dim">The first ten minutes of my morning</text>
+<text x="640" y="151" class="st" fill="#3fb950">IN SERVICE</text>
+<text x="872" y="151" class="dim" text-anchor="end">2026-06-30</text>
+<circle cx="40" cy="180" r="10" fill="#3fb950" opacity="0.25"/>
+<circle cx="40" cy="180" r="5" fill="#3fb950"/>
+<text x="62" y="185" class="name">paper-route</text>
+<text x="320" y="185" class="dim">Scheduled BI reports onto a wall-moun...</text>
+<text x="640" y="185" class="st" fill="#3fb950">IN SERVICE</text>
+<text x="872" y="185" class="dim" text-anchor="end">2026-06-30</text>
+<circle cx="40" cy="214" r="10" fill="#3fb950" opacity="0.25"/>
+<circle cx="40" cy="214" r="5" fill="#3fb950"/>
+<text x="62" y="219" class="name">TENON</text>
+<text x="320" y="219" class="dim">Sawing orders into TrimExpert product...</text>
+<text x="640" y="219" class="st" fill="#3fb950">IN SERVICE</text>
+<text x="872" y="219" class="dim" text-anchor="end">2026-07-07</text>
+<circle cx="40" cy="248" r="10" fill="#3fb950" opacity="0.25"/>
+<circle cx="40" cy="248" r="5" fill="#3fb950"/>
+<text x="62" y="253" class="name">trimtab</text>
+<text x="320" y="253" class="dim">What the trimmer decides a board is w...</text>
+<text x="640" y="253" class="st" fill="#3fb950">IN SERVICE</text>
+<text x="872" y="253" class="dim" text-anchor="end">2026-07-01</text>
+<line x1="28" y1="272" x2="872" y2="272" stroke="#30363d"/>
+<text x="28" y="300" class="dim">LAST INSPECTION 2026-07-07 20:07 UTC</text>
+<text x="872" y="300" class="dim" text-anchor="end">DAYS SINCE THE LAST MANUAL PROCESS WAS ELIMINATED: 7</text>
+</svg>

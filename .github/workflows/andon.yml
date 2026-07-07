@@ -28,7 +28,7 @@ jobs:
         run: |
           git config user.name "andon-bot"
           git config user.email "actions@github.com"
-          git add profile/README.md
+          git add profile/README.md profile/board.svg
           git diff --cached --quiet || git commit -m "Rebuild andon board"
           git push
 

@@ -12,18 +12,17 @@ Below is the shop floor. The board updates automatically.
 
 <!-- BOARD:START -->
 
-| Asset | Steers | Status | Last service |
-| --- | --- | --- | --- |
-| [garmin-notion](https://github.com/bhanke-lab/garmin-notion) | Watch data into my training log | 🟢 IN SERVICE | 2026-06-25 |
-| [local-inventory-scanner](https://github.com/bhanke-lab/local-inventory-scanner) | Who took what from the parts room | 🟢 IN SERVICE | 2026-06-30 |
-| [notion-morning-print](https://github.com/bhanke-lab/notion-morning-print) | The first ten minutes of my morning | 🟢 IN SERVICE | 2026-06-30 |
-| [paper-route](https://github.com/bhanke-lab/paper-route) | Scheduled BI reports onto a wall-mounted TV | 🟢 IN SERVICE | 2026-06-30 |
-| [TENON](https://github.com/bhanke-lab/TENON) | Sawing orders into TrimExpert product lists | 🟢 IN SERVICE | 2026-07-07 |
-| [trimtab](https://github.com/bhanke-lab/trimtab) | What the trimmer decides a board is worth | 🟢 IN SERVICE | 2026-07-01 |
+![Andon board: 6 in service](https://raw.githubusercontent.com/bhanke-lab/.github/main/profile/board.svg?v=202607072007)
 
-Last inspection: 2026-07-07 20:01 UTC
+```diff
++ 2026-07-07  TENON: Update README with logo, images, formatting changes, qu...
++ 2026-07-01  trimtab: Revise README for clarity on trim decisions and tools
++ 2026-06-30  paper-route: Add PolyForm Noncommercial License 1.0.0
++ 2026-06-30  notion-morning-print: Add PolyForm Noncommercial License 1.0.0
++ 2026-06-30  local-inventory-scanner: Create LICENSE.md
++ 2026-06-25  garmin-notion: add troubleshooting section to README to help debug sta...
+```
 
-Days since the last manual process was eliminated: 7
 <!-- BOARD:END -->
 
 IN SERVICE means it runs in production somewhere. PM DUE means open issues or something waiting on me. DOWN means decommissioned on purpose.
