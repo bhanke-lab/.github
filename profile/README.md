@@ -14,14 +14,14 @@ Below is the shop floor. The board updates automatically.
 
 | Asset | Steers | Status | Last service |
 | --- | --- | --- | --- |
-| [garmin-notion](https://github.com/bhanke-lab/garmin-notion) | Watch data into my training log | IN SERVICE | 2026-06-25 |
-| [local-inventory-scanner](https://github.com/bhanke-lab/local-inventory-scanner) | Who took what from the parts room | IN SERVICE | 2026-06-30 |
-| [notion-morning-print](https://github.com/bhanke-lab/notion-morning-print) | The first ten minutes of my morning | IN SERVICE | 2026-06-30 |
-| [paper-route](https://github.com/bhanke-lab/paper-route) | Scheduled BI reports onto a wall-mounted TV | IN SERVICE | 2026-06-30 |
-| [TENON](https://github.com/bhanke-lab/TENON) | Sawing orders into TrimExpert product lists | IN SERVICE | 2026-07-07 |
-| [trimtab](https://github.com/bhanke-lab/trimtab) | What the trimmer decides a board is worth | IN SERVICE | 2026-07-01 |
+| [garmin-notion](https://github.com/bhanke-lab/garmin-notion) | Watch data into my training log | 🟢 IN SERVICE | 2026-06-25 |
+| [local-inventory-scanner](https://github.com/bhanke-lab/local-inventory-scanner) | Who took what from the parts room | 🟢 IN SERVICE | 2026-06-30 |
+| [notion-morning-print](https://github.com/bhanke-lab/notion-morning-print) | The first ten minutes of my morning | 🟢 IN SERVICE | 2026-06-30 |
+| [paper-route](https://github.com/bhanke-lab/paper-route) | Scheduled BI reports onto a wall-mounted TV | 🟢 IN SERVICE | 2026-06-30 |
+| [TENON](https://github.com/bhanke-lab/TENON) | Sawing orders into TrimExpert product lists | 🟢 IN SERVICE | 2026-07-07 |
+| [trimtab](https://github.com/bhanke-lab/trimtab) | What the trimmer decides a board is worth | 🟢 IN SERVICE | 2026-07-01 |
 
-Last inspection: 2026-07-07 19:57 UTC
+Last inspection: 2026-07-07 20:01 UTC
 
 Days since the last manual process was eliminated: 7
 <!-- BOARD:END -->
