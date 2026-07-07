@@ -1,0 +1,46 @@
+name: Andon board
+
+on:
+  schedule:
+    - cron: "0 10 * * *"   # daily, 6 AM ET during DST, 5 AM EST
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: andon
+
+jobs:
+  rebuild-and-mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Rebuild board
+        env:
+          GITHUB_TOKEN: ${{  secrets.GITHUB_TOKEN  }}
+        run: python3 scripts/build_board.py
+
+      - name: Commit board
+        run: |
+          git config user.name "andon-bot"
+          git config user.email "actions@github.com"
+          git add profile/README.md
+          git diff --cached --quiet || git commit -m "Rebuild andon board"
+          git push
+
+      - name: Mirror to personal profile
+        env:
+          MIRROR_TOKEN: ${{  secrets.MIRROR_TOKEN  }}
+        run: |
+          git clone "https://x-access-token:${{  secrets.MIRROR_TOKEN  }}@github.com/bennetthanke/bennetthanke.git" mirror
+          cp profile/README.md mirror/README.md
+          cd mirror
+          git config user.name "andon-bot"
+          git config user.email "actions@github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "Mirror landing page from bhanke-lab/.github"
+          git push
