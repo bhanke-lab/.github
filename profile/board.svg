@@ -47,6 +47,6 @@ text { font-family: Consolas, 'Courier New', monospace; font-size: 13px; }
 <text x="640" y="253" class="st" fill="#3fb950">IN SERVICE</text>
 <text x="872" y="253" class="dim" text-anchor="end">2026-07-01</text>
 <line x1="28" y1="272" x2="872" y2="272" stroke="#30363d"/>
-<text x="28" y="300" class="dim">LAST INSPECTION 2026-07-07 20:07 UTC</text>
+<text x="28" y="300" class="dim">LAST INSPECTION 2026-07-07 20:08 UTC</text>
 <text x="872" y="300" class="dim" text-anchor="end">DAYS SINCE THE LAST MANUAL PROCESS WAS ELIMINATED: 7</text>
 </svg>

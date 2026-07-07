@@ -12,7 +12,7 @@ Below is the shop floor. The board updates automatically.
 
 <!-- BOARD:START -->
 
-![Andon board: 6 in service](https://raw.githubusercontent.com/bhanke-lab/.github/main/profile/board.svg?v=202607072007)
+![Andon board: 6 in service](https://raw.githubusercontent.com/bhanke-lab/.github/main/profile/board.svg?v=202607072008)
 
 ```diff
 + 2026-07-07  TENON: Update README with logo, images, formatting changes, qu...
