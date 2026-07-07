@@ -80,7 +80,7 @@ Every tool here exists because something broke. The tickets are closed but kept 
 - Parts: Excel, Power Query, Office Scripts, Python.
 - Surface pushed: the price grid, which is the only thing the machine actually listens to.
 
-### WO-0007: [garmin-to-notion](https://github.com/bhanke-lab/garmin-to-notion)
+### WO-0007: [garmin-notion](https://github.com/bhanke-lab/garmin-notion)
 
 - Symptom: years of training data locked in a watch vendor's app.
 - Root cause: vendors don't export to where you actually live.

@@ -14,7 +14,7 @@ END = "<!-- BOARD:END -->"
 # One-line "Steers" text per repo. Anything not listed falls back to its GitHub description.
 STEERS = {
     "fiix-analytics-auto-downloader": "Daily CMMS reports onto the shared drive",
-    "garmin-to-notion": "Watch data into my training log",
+    "garmin-notion": "Watch data into my training log",
     "intervals-to-notion": "Training data to where my coach can read it",
     "local-inventory-scanner": "Who took what from the parts room",
     "notion-morning-print": "The first ten minutes of my morning",
