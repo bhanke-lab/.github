@@ -37,10 +37,10 @@ def gh(url):
 
 def status_of(repo):
     if repo["archived"]:
-        return "DOWN"
+        return "🔴 DOWN"
     if repo["open_issues_count"] > 0:
-        return "PM DUE"
-    return "IN SERVICE"
+        return "🟡 PM DUE"
+    return "🟢 IN SERVICE"
 
 
 def main():
