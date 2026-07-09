@@ -14,7 +14,7 @@ text { font-family: Consolas, 'Courier New', monospace; font-size: 17px; }
 <circle cx="40" cy="100" r="13" fill="#d29922" opacity="0.25"><animate attributeName="opacity" values="0.25;0.8;0.25" dur="2s" repeatCount="indefinite"/></circle>
 <circle cx="40" cy="100" r="7" fill="#d29922"/>
 <text x="62" y="106" class="name">.github</text>
-<text x="300" y="106" class="dim">This page. Self-monitoring.</text>
+<text x="300" y="106" class="dim">This page, self monitor</text>
 <rect x="770" y="108" width="4" height="1" fill="#d29922" opacity="0.7"/>
 <rect x="775" y="108" width="4" height="1" fill="#d29922" opacity="0.7"/>
 <rect x="780" y="108" width="4" height="1" fill="#d29922" opacity="0.7"/>
@@ -174,7 +174,7 @@ text { font-family: Consolas, 'Courier New', monospace; font-size: 17px; }
 <circle cx="40" cy="320" r="13" fill="#3fb950" opacity="0.25"></circle>
 <circle cx="40" cy="320" r="7" fill="#3fb950"/>
 <text x="62" y="326" class="name">local-inventory-scanner</text>
-<text x="300" y="326" class="dim">Low-cost offline inventory scanner</text>
+<text x="300" y="326" class="dim">Low cost offline inventory scanner</text>
 <rect x="770" y="328" width="4" height="1" fill="#3fb950" opacity="0.7"/>
 <rect x="775" y="328" width="4" height="1" fill="#3fb950" opacity="0.7"/>
 <rect x="780" y="328" width="4" height="1" fill="#3fb950" opacity="0.7"/>
@@ -236,14 +236,14 @@ text { font-family: Consolas, 'Courier New', monospace; font-size: 17px; }
 <text x="920" y="370" class="st" fill="#d29922">PM DUE</text>
 <text x="1132" y="370" class="dim" text-anchor="end">AVAIL 69%</text>
 <line x1="28" y1="396" x2="1132" y2="396" stroke="#30363d"/>
-<text x="28" y="428" class="dim">LAST INSPECTION 2026-07-09 13:32 UTC</text>
+<text x="28" y="428" class="dim">LAST INSPECTION 2026-07-09 14:04 UTC</text>
 <text x="28" y="454" class="dim">DAYS SINCE THE LAST MANUAL PROCESS WAS ELIMINATED: 1</text>
 <rect x="832" y="406" width="300" height="72" fill="none" stroke="#30363d"/>
 <line x1="832" y1="430" x2="1132" y2="430" stroke="#30363d"/>
 <line x1="832" y1="454" x2="1132" y2="454" stroke="#30363d"/>
 <line x1="982" y1="406" x2="982" y2="478" stroke="#30363d"/>
 <text x="840" y="423" class="tb">DRAWN BY: andon-bot</text>
-<text x="990" y="423" class="tb">REV: local</text>
+<text x="990" y="423" class="tb">REV: 2ea4c46</text>
 <text x="840" y="447" class="tb">DATE: 2026-07-09</text>
 <text x="990" y="447" class="tb">SHEET 1 OF 1</text>
 <text x="840" y="471" class="tb">CHECKED BY: nobody</text>

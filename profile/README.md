@@ -2,7 +2,7 @@
 
 <!-- BOARD:START -->
 
-![Andon board: 2 pm due, 5 in service](https://raw.githubusercontent.com/bhanke-lab/.github/main/profile/board.svg?v=202607091332)
+![Andon board: 2 pm due, 5 in service](https://raw.githubusercontent.com/bhanke-lab/.github/main/profile/board.svg?v=202607091404)
 
 <details>
 <summary>shift log</summary>
