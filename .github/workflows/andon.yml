@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: andon
@@ -21,7 +22,7 @@ jobs:
 
       - name: Rebuild board
         env:
-          GITHUB_TOKEN: ${{  secrets.GITHUB_TOKEN  }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 scripts/build_board.py
 
       - name: Commit board
@@ -34,9 +35,9 @@ jobs:
 
       - name: Mirror to personal profile
         env:
-          MIRROR_TOKEN: ${{  secrets.MIRROR_TOKEN  }}
+          MIRROR_TOKEN: ${{ secrets.MIRROR_TOKEN }}
         run: |
-          git clone "https://x-access-token:${{  secrets.MIRROR_TOKEN  }}@github.com/bennetthanke/bennetthanke.git" mirror
+          git clone "https://x-access-token:${{ secrets.MIRROR_TOKEN }}@github.com/bennetthanke/bennetthanke.git" mirror
           cp profile/README.md mirror/README.md
           cd mirror
           git config user.name "andon-bot"
@@ -44,3 +45,13 @@ jobs:
           git add README.md
           git diff --cached --quiet || git commit -m "Mirror landing page from bhanke-lab/.github"
           git push
+
+      - name: Raise andon on failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          open=$(gh issue list --state open --search "Andon board rebuild failed in:title" --json number --jq length)
+          if [ "$open" = "0" ]; then
+            gh issue create --title "Andon board rebuild failed" --body "The board pipeline failed. Run: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          fi
