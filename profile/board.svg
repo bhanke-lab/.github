@@ -42,7 +42,7 @@ text { font-family: Consolas, 'Courier New', monospace; font-size: 17px; }
 <rect x="890" y="108" width="4" height="1" fill="#3fb950" opacity="0.7"/>
 <rect x="895" y="91" width="4" height="18" fill="#3fb950" opacity="0.7"/>
 <text x="920" y="106" class="st" fill="#3fb950">IN SERVICE</text>
-<text x="1132" y="106" class="dim" text-anchor="end">AVAIL 80%</text>
+<text x="1132" y="106" class="dim" text-anchor="end">AVAIL 82%</text>
 <circle cx="40" cy="144" r="13" fill="#3fb950" opacity="0.25"></circle>
 <circle cx="40" cy="144" r="7" fill="#3fb950"/>
 <text x="62" y="150" class="name">TENON</text>
@@ -212,15 +212,15 @@ text { font-family: Consolas, 'Courier New', monospace; font-size: 17px; }
 <rect x="780" y="372" width="4" height="1" fill="#d29922" opacity="0.7"/>
 <rect x="785" y="369" width="4" height="4" fill="#d29922" opacity="0.7"/>
 <rect x="790" y="372" width="4" height="1" fill="#d29922" opacity="0.7"/>
-<rect x="795" y="371" width="4" height="2" fill="#d29922" opacity="0.7"/>
-<rect x="800" y="360" width="4" height="13" fill="#d29922" opacity="0.7"/>
+<rect x="795" y="364" width="4" height="9" fill="#d29922" opacity="0.7"/>
+<rect x="800" y="368" width="4" height="5" fill="#d29922" opacity="0.7"/>
 <rect x="805" y="370" width="4" height="3" fill="#d29922" opacity="0.7"/>
 <rect x="810" y="372" width="4" height="1" fill="#d29922" opacity="0.7"/>
 <rect x="815" y="371" width="4" height="2" fill="#d29922" opacity="0.7"/>
 <rect x="820" y="372" width="4" height="1" fill="#d29922" opacity="0.7"/>
-<rect x="825" y="372" width="4" height="1" fill="#d29922" opacity="0.7"/>
+<rect x="825" y="371" width="4" height="2" fill="#d29922" opacity="0.7"/>
 <rect x="830" y="371" width="4" height="2" fill="#d29922" opacity="0.7"/>
-<rect x="835" y="371" width="4" height="2" fill="#d29922" opacity="0.7"/>
+<rect x="835" y="372" width="4" height="1" fill="#d29922" opacity="0.7"/>
 <rect x="840" y="372" width="4" height="1" fill="#d29922" opacity="0.7"/>
 <rect x="845" y="355" width="4" height="18" fill="#d29922" opacity="0.7"/>
 <rect x="850" y="368" width="4" height="5" fill="#d29922" opacity="0.7"/>
@@ -236,15 +236,15 @@ text { font-family: Consolas, 'Courier New', monospace; font-size: 17px; }
 <text x="920" y="370" class="st" fill="#d29922">PM DUE</text>
 <text x="1132" y="370" class="dim" text-anchor="end">AVAIL 70%</text>
 <line x1="28" y1="396" x2="1132" y2="396" stroke="#30363d"/>
-<text x="28" y="428" class="dim">LAST INSPECTION 2026-07-11 11:01 UTC</text>
-<text x="28" y="454" class="dim">DAYS SINCE THE LAST MANUAL PROCESS WAS ELIMINATED: 3</text>
+<text x="28" y="428" class="dim">LAST INSPECTION 2026-07-12 11:07 UTC</text>
+<text x="28" y="454" class="dim">DAYS SINCE THE LAST MANUAL PROCESS WAS ELIMINATED: 4</text>
 <rect x="832" y="406" width="300" height="72" fill="none" stroke="#30363d"/>
 <line x1="832" y1="430" x2="1132" y2="430" stroke="#30363d"/>
 <line x1="832" y1="454" x2="1132" y2="454" stroke="#30363d"/>
 <line x1="982" y1="406" x2="982" y2="478" stroke="#30363d"/>
 <text x="840" y="423" class="tb">DRAWN BY: andon-bot</text>
-<text x="990" y="423" class="tb">REV: 6b0d3a3</text>
-<text x="840" y="447" class="tb">DATE: 2026-07-11</text>
+<text x="990" y="423" class="tb">REV: 41f2837</text>
+<text x="840" y="447" class="tb">DATE: 2026-07-12</text>
 <text x="990" y="447" class="tb">SHEET 1 OF 1</text>
 <text x="840" y="471" class="tb">CHECKED BY: nobody</text>
 <text x="990" y="471" class="tb">SCALE: NTS</text>
