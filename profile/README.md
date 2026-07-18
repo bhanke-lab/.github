@@ -2,7 +2,7 @@
 
 <!-- BOARD:START -->
 
-![Andon board: 6 in service, 1 pm due](https://raw.githubusercontent.com/bhanke-lab/.github/main/profile/board.svg?v=202607171119)
+![Andon board: 6 in service, 1 pm due](https://raw.githubusercontent.com/bhanke-lab/.github/main/profile/board.svg?v=202607181101)
 
 <details>
 <summary>shift log</summary>
@@ -10,7 +10,7 @@
 ```diff
 @@ -0,0 +1,12 @@ shift log
 + 2026-07-13  b06f687  garmin-notion: Hide the sync window and let recent activitie...
-+ 2026-07-10  8dfcbc7  trimtab: Update READMEs and docs for xlsx batch mode
+  2026-07-10  8dfcbc7  trimtab: Update READMEs and docs for xlsx batch mode
   2026-07-09  2167742  trimtab: Add xlsx batch mode: formatted trim models fo...
   2026-07-09  7bc6f6e  garmin-notion: Add sync log file to .gitignore
   2026-07-09  4282859  garmin-notion: Update README with sync runner toggle, freshn...
