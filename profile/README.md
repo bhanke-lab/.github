@@ -1,5 +1,7 @@
 <!-- WO-0000: reader inspects the machinery. No corrective action required. -->
 
+<img src="https://raw.githubusercontent.com/bhanke-lab/.github/main/profile/ride.svg" width="100%" alt="Pixel bike rides a winding asphalt road through the mountains, breaking down and getting fixed across three laps.">
+
 <!-- BOARD:START -->
 
 ![Andon board: 2 pm due, 5 in service](https://raw.githubusercontent.com/bhanke-lab/.github/main/profile/board.svg?v=202607091404)
