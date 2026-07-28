@@ -31,13 +31,24 @@ STEERS = {
 }
 HIDDEN = set()  # repo names to keep off the board entirely
 
+# Private repos that still get a board row. Allowlist by name, fetched one by
+# one with BOARD_TOKEN. Rows show name + STEERS one-liner + status lamp only:
+# never the GitHub description, never commit subjects (shift log shows
+# "[private]"), never links.
+PRIVATE_REPOS = [
+    "TENON",
+    "trimtab",
+    "paper-route",
+    "local-inventory-scanner",
+]
+
 LAMP = {"IN SERVICE": "#3fb950", "PM DUE": "#d29922", "DOWN": "#f85149"}
 AVAIL_FLOOR = 75  # percent; below this a live repo goes PM DUE
 
 
 def gh(url):
     req = urllib.request.Request(url, headers={"Accept": "application/vnd.github+json"})
-    token = os.environ.get("GITHUB_TOKEN")
+    token = os.environ.get("BOARD_TOKEN") or os.environ.get("GITHUB_TOKEN")
     if token:
         req.add_header("Authorization", "Bearer " + token)
     with urllib.request.urlopen(req, timeout=30) as resp:
@@ -114,7 +125,11 @@ def build_svg(repos, extras, stamp, days, rev):
         avail, weeks = extras[r["name"]]
         st = status_of(r, avail)
         color = LAMP[st]
-        steers = clip(STEERS.get(r["name"], r["description"] or ""), 44)
+        # Private repos never fall back to the GitHub description; STEERS only.
+        if r.get("private"):
+            steers = clip(STEERS.get(r["name"], ""), 44)
+        else:
+            steers = clip(STEERS.get(r["name"], r["description"] or ""), 44)
         pulse = "" if st == "IN SERVICE" else '<animate attributeName="opacity" values="0.25;0.8;0.25" dur="2s" repeatCount="indefinite"/>'
         parts += [
             f'<circle cx="40" cy="{y}" r="13" fill="{color}" opacity="0.25">{pulse}</circle>',
@@ -161,6 +176,22 @@ def build_svg(repos, extras, stamp, days, rev):
 def main():
     repos = gh("https://api.github.com/orgs/" + ORG + "/repos?per_page=100&type=public")
     repos = [r for r in repos if r["name"] not in HIDDEN]
+
+    # Fetch allowlisted private repos individually. Same repo object shape,
+    # so issue-count status logic works unchanged. Fail loudly if one can't
+    # be fetched: the workflow failure raises an andon issue in .github,
+    # which is exactly what the board is for (e.g. an expired BOARD_TOKEN).
+    public_names = {r["name"] for r in repos}
+    failed = []
+    for name in PRIVATE_REPOS:
+        if name in public_names:
+            continue  # still public; already in the listing
+        try:
+            repos.append(gh("https://api.github.com/repos/" + ORG + "/" + name))
+        except Exception:
+            failed.append(name)
+    if failed:
+        raise SystemExit("private repo fetch failed (BOARD_TOKEN missing/expired/underscoped?): " + ", ".join(failed))
     order = {name: i for i, name in enumerate(STEERS)}
     repos.sort(key=lambda r: (r["archived"], order.get(r["name"], len(order)), r["name"].lower()))
 
@@ -188,6 +219,8 @@ def main():
             continue
         try:
             for ts, sha, subject in recent_commits(r, 3):
+                if r.get("private"):
+                    subject = "[private]"  # date + sha prove the machine ran; the work order says what it does
                 if r["archived"]:
                     sign = "-"
                 elif ts[:10] >= cutoff:

@@ -23,6 +23,7 @@ jobs:
       - name: Rebuild board
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BOARD_TOKEN: ${{ secrets.BOARD_TOKEN }}
         run: python3 scripts/build_board.py
 
       - name: Commit board
