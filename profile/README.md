@@ -4,17 +4,17 @@
 
 <!-- BOARD:START -->
 
-![Andon board: 6 in service, 1 pm due](https://raw.githubusercontent.com/bhanke-lab/.github/main/profile/board.svg?v=202607281155)
+![Andon board: 6 in service, 1 pm due](https://raw.githubusercontent.com/bhanke-lab/.github/main/profile/board.svg?v=202607281942)
 
 <details>
 <summary>shift log</summary>
 
 ```diff
 @@ -0,0 +1,12 @@ shift log
++ 2026-07-28  a070f24  TENON: maintenance update fixtures and gitignore
 + 2026-07-22  975d724  garmin-notion: Update git ignore
   2026-07-20  c76e36f  TENON: Update README.md for version v0.20: Improve a...
   2026-07-20  f0d66dd  TENON: v0.20: date-scoped auto_activate/redirect/sup...
-  2026-07-20  71392af  TENON: Fix version formatting in README.md to displa...
   2026-07-20  748ba1c  paper-route: Update license from MIT to PolyForm Noncommer...
   2026-07-20  4b4ee2d  local-inventory-scanner: Update license from MIT to PolyForm Noncommer...
   2026-07-20  a407ba4  garmin-notion: Update sync status badge in README for improv...
