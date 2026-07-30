@@ -4,7 +4,7 @@
 
 <!-- BOARD:START -->
 
-![Andon board: 6 in service, 1 pm due](https://raw.githubusercontent.com/bhanke-lab/.github/main/profile/board.svg?v=202607291158)
+![Andon board: 6 in service, 1 pm due](https://raw.githubusercontent.com/bhanke-lab/.github/main/profile/board.svg?v=202607301149)
 
 <details>
 <summary>shift log</summary>
@@ -12,7 +12,7 @@
 ```diff
 @@ -0,0 +1,12 @@ shift log
 + 2026-07-28  a070f24  TENON: [private]
-+ 2026-07-22  975d724  garmin-notion: Update git ignore
+  2026-07-22  975d724  garmin-notion: Update git ignore
   2026-07-20  c76e36f  TENON: [private]
   2026-07-20  f0d66dd  TENON: [private]
   2026-07-20  748ba1c  paper-route: [private]
