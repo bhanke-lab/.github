@@ -28,4 +28,4 @@
 </details>
 
 <!-- BOARD:END -->
-All systems have a trailing edge. Trim tab.
+All systems have a trailing edge
