@@ -4,7 +4,7 @@
 
 <!-- BOARD:START -->
 
-![Andon board: 7 in service](https://raw.githubusercontent.com/bhanke-lab/.github/main/profile/board.svg?v=202608272007)
+![Andon board: 7 in service](https://raw.githubusercontent.com/bhanke-lab/.github/main/profile/board.svg?v=202608282104)
 
 <details>
 <summary>shift log</summary>
