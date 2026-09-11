@@ -157,7 +157,6 @@ def build_svg(repos, extras, stamp, days, rev):
     parts += [
         f'<line x1="28" y1="{div}" x2="{width - 28}" y2="{div}" stroke="#30363d"/>',
         f'<text x="28" y="{foot}" class="dim">LAST INSPECTION {stamp}</text>',
-        f'<text x="28" y="{foot + 26}" class="dim">DAYS SINCE THE LAST MANUAL PROCESS WAS ELIMINATED: {days}</text>',
         f'<rect x="{tb_x}" y="{div + 10}" width="300" height="72" fill="none" stroke="#30363d"/>',
         f'<line x1="{tb_x}" y1="{div + 34}" x2="{tb_x + 300}" y2="{div + 34}" stroke="#30363d"/>',
         f'<line x1="{tb_x}" y1="{div + 58}" x2="{tb_x + 300}" y2="{div + 58}" stroke="#30363d"/>',
