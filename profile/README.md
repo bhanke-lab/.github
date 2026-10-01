@@ -4,13 +4,15 @@
 
 <!-- BOARD:START -->
 
-![Andon board: 7 in service](https://raw.githubusercontent.com/bhanke-lab/.github/main/profile/board.svg?v=202609301614)
+![Andon board: 7 in service](https://raw.githubusercontent.com/bhanke-lab/.github/main/profile/board.svg?v=202610011651)
 
 <details>
 <summary>shift log</summary>
 
 ```diff
 @@ -0,0 +1,12 @@ shift log
++ 2026-10-01  e383626  trimtab: [private]
++ 2026-09-30  2f9df00  trimtab: [private]
 + 2026-09-30  b3a4516  TENON: [private]
 + 2026-09-30  fc51ff4  TENON: [private]
 + 2026-09-29  6402537  TENON: [private]
@@ -21,8 +23,6 @@
   2026-07-22  975d724  garmin-notion: Update git ignore
   2026-07-20  748ba1c  paper-route: [private]
   2026-07-20  4b4ee2d  local-inventory-scanner: [private]
-  2026-07-20  a407ba4  garmin-notion: Update sync status badge in README for improv...
-  2026-07-10  8dfcbc7  trimtab: [private]
 ```
 
 </details>
