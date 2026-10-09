@@ -4,7 +4,7 @@
 
 <!-- BOARD:START -->
 
-![Andon board: 7 in service](https://raw.githubusercontent.com/bhanke-lab/.github/main/profile/board.svg?v=202610081710)
+![Andon board: 7 in service](https://raw.githubusercontent.com/bhanke-lab/.github/main/profile/board.svg?v=202610091647)
 
 <details>
 <summary>shift log</summary>
@@ -14,8 +14,8 @@
 + 2026-10-08  a37e575  TENON: [private]
 + 2026-10-08  1c0f996  TENON: [private]
 + 2026-10-06  e9851fd  TENON: [private]
-+ 2026-10-01  1708567  trimtab: [private]
-+ 2026-10-01  e383626  trimtab: [private]
+  2026-10-01  1708567  trimtab: [private]
+  2026-10-01  e383626  trimtab: [private]
   2026-09-30  2f9df00  trimtab: [private]
   2026-08-05  daf982c  garmin-notion: fix: replace disabled keepalive action with d...
   2026-07-31  d9b92a3  notion-morning-print: feat: add env.example file and encourage data...
