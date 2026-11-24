@@ -4,16 +4,16 @@
 
 <!-- BOARD:START -->
 
-![Andon board: 7 in service](https://raw.githubusercontent.com/bhanke-lab/.github/main/profile/board.svg?v=202611232152)
+![Andon board: 7 in service](https://raw.githubusercontent.com/bhanke-lab/.github/main/profile/board.svg?v=202611242029)
 
 <details>
 <summary>shift log</summary>
 
 ```diff
 @@ -0,0 +1,12 @@ shift log
++ 2026-11-24  fa8af47  TENON: [private]
 + 2026-11-23  b346750  TENON: [private]
 + 2026-11-20  35b9977  TENON: [private]
-+ 2026-11-20  df136fa  TENON: [private]
   2026-10-01  1708567  trimtab: [private]
   2026-10-01  e383626  trimtab: [private]
   2026-09-30  2f9df00  trimtab: [private]
